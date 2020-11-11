@@ -14,7 +14,13 @@ export PYTHONSTARTUP=$HOME/projects/dizzyfocus/dotfiles
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 #ZSH_THEME="avit"
 ZSH_THEME="agnoster"
-
+vsed(){
+  search=$1
+  replace=$2
+  shift
+  shift
+  vim-c "bufdo! set eventignore-=Syntax| %s/$search/$replace/gce" $*
+}
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
