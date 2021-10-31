@@ -64,7 +64,7 @@ ulimit -S -c 0        # Don't want any coredumps
 set +u
 set -o notify
 set -o ignoreeof
-set -o nounset
+#set -o nounset
 # vi mode
 set -o vi
 #set -o xtrace        # Useful for debuging
