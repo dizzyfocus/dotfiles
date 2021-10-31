@@ -61,6 +61,7 @@ alias rmaster01='ssh -i /Users/pericles/projects/kubernetes-the-hard-way/vagrant
 ulimit -S -c 0        # Don't want any coredumps
 
 # set
+set +u
 set -o notify
 set -o ignoreeof
 set -o nounset
