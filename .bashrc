@@ -14,7 +14,7 @@ export ZSH_VERSION=null
 chkjboss () { ssh -i ~/.ssh/id_rsa_jboss jbadmin@"$@" "ps faux | grep java"; }
 ssj () { ssh -i ~/.ssh/id_rsa_jboss jbadmin@"$@"; }
 
-#export GIT_PS1_SHOWDIRTYSTATE=1
+export GIT_PS1_SHOWDIRTYSTATE=1
 # export PYTHONSTARTUP=$HOME/projects/dizzyfocus/dotfiles
 
 # prompt function
