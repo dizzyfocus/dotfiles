@@ -96,4 +96,3 @@ alias x-kill-signals='less "$HOME/.examples/x-kill-signals"'
 alias x-media-wiki='less "$HOME/.examples/x-media-wiki"'
 alias x-ruby='less "$HOME/.examples/x-ruby"'
 alias showvirt='echo "Platform: $(lspci |grep "System peripheral" | cut -d":" -f3)"'
-if [ -f $(brew --prefix)/etc/bash_completion ]; then source $(brew --prefix)/etc/bash_completion; fi
