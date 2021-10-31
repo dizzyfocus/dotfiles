@@ -7,7 +7,7 @@ COLOR_NONE="\[\e[0m\]"
 
 # git stuff
 export ZSH_VERSION=null
-. ~/bin/git-prompt.sh
+. ~/.git-prompt.sh
 
 # completetion
 
