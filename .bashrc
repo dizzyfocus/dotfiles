@@ -51,7 +51,6 @@ export SVN_EDITOR="/usr/bin/vim"
 # make sure we are using the latest vi
 alias k=kubectl
 alias vi="/usr/bin/vim"
-alias rnagios="ssh rrfomeran@amanagiosl001"
 alias showtraf='lsof -i'
 alias rdosomething='ssh bender@192.168.254.24'
 alias rsandbox='ssh cloud_user@13.57.243.199'
